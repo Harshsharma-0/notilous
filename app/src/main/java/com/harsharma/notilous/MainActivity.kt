@@ -16,7 +16,10 @@ class MainActivity : ComponentActivity() {
 
     enableEdgeToEdge()
     setContent {
-      NotilousTheme { Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) { MainNavigation() } }
+      NotilousTheme { 
+        Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
+
+      }}
     }
   }
 }
